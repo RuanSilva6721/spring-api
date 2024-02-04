@@ -1,5 +1,12 @@
 package com.ruan.spring.domain.product;
 
-public record RequestProduct(String name, Number price_in_cents) {
+import lombok.NonNull;
+
+public record RequestProduct(
+        long id,
+        @NonNull
+        String name,
+        @NonNull
+        Integer price_in_cents) {
 
 }
