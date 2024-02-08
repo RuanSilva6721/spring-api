@@ -1,9 +1,8 @@
 package com.ruan.spring.controllers;
 
 import com.ruan.spring.domain.product.Product;
-import com.ruan.spring.domain.product.ProductRepository;
+import com.ruan.spring.repositories.ProductRepository;
 import com.ruan.spring.domain.product.RequestProduct;
-import jakarta.websocket.server.PathParam;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
